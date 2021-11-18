@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.footer__title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.footer__copyright {
+  margin: 0;
+}
+
+@media (max-width: 400px) {
+  .footer__title {
+    font-size: 1rem;
+  }
+  .footer__copyright {
+    font-size: 0.9rem;
+  }
+  .footer__social {
+    font-size: 1.8rem;
+  }
+}
